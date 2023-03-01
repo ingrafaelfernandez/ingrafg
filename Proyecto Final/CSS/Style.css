@@ -1,0 +1,189 @@
+/*Body desing*/
+
+body {
+  margin: 0;
+  background-color: rgb(233, 255, 255);
+}
+
+/*Page Content*/
+h1 {
+  color: lightcoral;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+div {
+  width:auto;
+  border: auto;
+  margin: 1%;
+  padding:1%;
+  
+}
+
+
+div.Contenido {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  
+}
+
+/*Menu Bar Desing*/
+ul.topnav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e1e7e8;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  /* color: rgb(87, 76, 235);*/
+  text-align:center;
+  padding: 1px 25px; 
+  line-height: 1.2em;
+    color: #0000;
+    text-shadow: 
+      0 0 #000, 
+      0 1.2em #1095c1;
+    overflow: hidden;
+    transition: .3s;
+  
+}
+ul.topnav li a:hover {
+  text-shadow: 
+      0 -1.2em #000, 
+      0 0 #1095c1;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+}
+
+ul.cvpnav li {
+display: inline-block;
+
+
+}
+
+img.topnavimg {
+  width: 25px;
+  
+}
+
+img.icnav {
+  width: 50px;
+ 
+}
+/* <----------------------------------------------------> */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 100%;
+  
+}
+
+
+
+.center {
+  
+  padding: auto ;
+  border: 0px solid #00000071;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #bdeeff95;
+  border-radius: 15px 15px;
+ 
+}
+
+
+img:hover {
+opacity: 0.5;
+}
+section.principal {
+  
+  background-color: rgba(0, 255, 255, 0.066);
+  font-size: 10%;
+
+}
+/* -------------------------------- */
+
+div.polaroid {
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #57470578;
+  border-radius: 5% 5%;
+}
+
+div.container {
+  background-color: rgba(245, 245, 220, 0);
+  
+  padding: auto;
+}
+
+p.cv {
+  font-family: system-ui, sans-serif;
+  font-size: 3rem;
+  margin:0;
+  cursor: pointer;
+  padding: 0 .1em;
+}
+
+.hover-1 {
+  line-height: 1.2em;
+  color: #0000;
+  text-shadow: 
+    0 0 #000, 
+    0 1.2em #1095c1;
+  overflow: hidden;
+  transition: .3s;
+}
+.hover-1:hover {
+  text-shadow: 
+    0 -1.2em #000, 
+    0 0 #1095c1;
+}
+
+.hover-3 {
+  --c: #003448; /* the color  */
+  --h: 1.2em;   /* the height */
+  border-radius: 15px 15px;
+  line-height: var(--h);  
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 
+    0 calc(-1*var(--h)*var(--_i,0)) var(--c), 
+    0 calc(var(--h)*(1 - var(--_i,0))) #fff;
+  background: 
+    linear-gradient(var(--c) 0 0) no-repeat
+    calc(200% - var(--_i, 0) * 100%) 100% / 200% calc(100% * var(--_i, 0) + .08em);
+  transition: .3s calc(var(--_i, 0) * .3s), background-position .3s calc(.3s - calc(var(--_i, 0) * .3s));
+}
+.hover-3:hover {
+  --_i: 1;
+}
+.spanletra{
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
